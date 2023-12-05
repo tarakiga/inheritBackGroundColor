@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+    overflow: hidden; /* Hide overflowing gradient */
+  }
+  
+  #imageContainer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #imagePlaceholder {
+    max-width: 100%;
+    max-height: 80vh;
+    border: 1px solid #ddd;
+    mask-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); /* Fade effect */
+  }
+  
+  #uploadInput {
+    margin-top: 10px;
+  }
+  
