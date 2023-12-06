@@ -13,3 +13,5 @@ This project allows you to upload an image, and the background color of the page
 
    ```bash
    git clone https://github.com/tarakiga/inheritBackGroundColor.git
+
+[Click to preview](https://tarakiga.github.io/inheritBackGroundColor)
